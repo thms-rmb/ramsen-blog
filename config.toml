@@ -1,3 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://thomas.ramsen.no/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Ramsen"
+copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
+
+theme = "hugo-theme-bootstrap4-blog"
+
+[params]
+  author = "Thomas Hanssen Rambø"
+  date_format = "2006-01-02"
+
