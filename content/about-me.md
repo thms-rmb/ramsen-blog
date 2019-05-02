@@ -46,6 +46,9 @@ ancient greek philosophy and medieval philosophy.
 
 _From April 2019_. Currently working here.
 
+ + Configuration services and technical services for TIND repositories
+   based on customer support tickets.
+
 ## Senior Librarian, [Queen Maud University College](https://dmmh.no/)
 
 _January 2018 to March 2019_.
