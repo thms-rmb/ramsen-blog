@@ -57,10 +57,11 @@ site.
 
 In order to build and deploy this site, I've simply cloned the
 repository to the parent directory of the `DocumentRoot` on the
-server. In addition, I've created a simple script that Git runs during
-its `post-receive` hook, which builds the site using the `Makefile`
-and places the built site in the `DocumentRoot`. Building the site
-using Hugo is very fast and uses little resources.
+server. In addition, I've created a simple script that Git on the
+server runs during its `post-receive` hook, which builds the site
+using the `Makefile` and places the built site in the
+`DocumentRoot`. Building the site using Hugo is very fast and uses
+little resources.
 
 {{< highlight makefile "linenos=table" >}}
 SOURCES := $(shell find . -name '*.toml' -or -name '*.md')
